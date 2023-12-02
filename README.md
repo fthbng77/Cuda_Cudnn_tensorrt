@@ -2,10 +2,10 @@
 
 
 ### Nvidia driver kurulumu
-
-`sudo apt-get install nvidia-driver-525`
-`sudo prime-select nvidia`
-`sudo reboot`
+```shell
+sudo apt-get install nvidia-driver-525
+sudo prime-select nvidia
+sudo reboot
 
 ### cuda kurulumu 
 
