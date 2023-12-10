@@ -35,6 +35,7 @@ npx create-react-app gokmen-app
 cd gokmen-app
 npm install socket.io
 npm install express
+npm install roslib
 ```
 
 
