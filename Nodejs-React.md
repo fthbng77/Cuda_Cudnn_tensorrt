@@ -1,11 +1,11 @@
 
-Nodejs 18 indirmek için:
+Nodejs 20 indirmek için:
 
 ```
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install curl
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 ```
 
 sonra nodejs kurmaya başlayabilirsin:
