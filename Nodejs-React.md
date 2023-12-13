@@ -55,12 +55,15 @@ curl -fsSL https://pgp.mongodb.com/server-7.0.asc | \
    sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg \
    --dearmor
 ```
+uygun sürümü ubuntu deposuna ekleme:
 ```shell
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
 ```
+mongoDB kurulumu:
 ```shell
 sudo apt-get install -y mongodb-org
 ```
+kontrol:
 ```shell
 sudo systemctl start mongod
 ```
