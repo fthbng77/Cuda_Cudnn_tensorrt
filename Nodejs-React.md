@@ -71,3 +71,8 @@ mongodb başlatmak için:
 ```
 mongosh
 ```
+
+<p align="center">
+  <img src="web1.jpeg" width="400" />
+  <img src="web2.jpeg" width="400" />
+</p>
