@@ -1,6 +1,7 @@
 # Cuda_Cudnn_tensorrt
 
 Nvidia-driver-525, Cuda 12.0, Cudnn 8.9.0, Pytorch ve TensorRT kurulumunun ubuntu 20.04 için nasıl yapılacağını içerir.
+- 13. Nesil işlemciler için Nvidia Driver kurulumlarında sıkıntı çıkıyor daha sağlıklı çalışma için ubuntu 22.04 tercih edin.
 
 ### Nvidia driver kurulumu
 ```shell
